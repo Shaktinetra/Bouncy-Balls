@@ -23,12 +23,6 @@ function setup() {
 
   edges = createEdgeSprites();
 
-  BALL_0.shapeColor = ("white");
-  BALL_1.shapeColor = ("yellow");
-  BALL_2.shapeColor = ("red");
-  BALL_3.shapeColor = ("blue");
-  BALL_4.shapeColor = ("green");
-
   BALL_0.velocityX = random(-5, 5);
   BALL_1.velocityX = random(-5, 5);
   BALL_2.velocityX = random(-5, 5);
